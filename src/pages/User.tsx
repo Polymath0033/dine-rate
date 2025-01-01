@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { Fragment, useState } from "react";
 import { ReviewButton } from "../components/ReviewButton";
-import { DinnerReview } from "../components/DinnerReview";
 import { UserReview } from "../components/UserReview";
 const filterButtons = [
   {
@@ -153,7 +152,7 @@ export const User: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="down-user-bg  flex flex-col w-full h-screen py-[30px] pl-[104px]">
+      <div className="down-user  flex flex-col w-full h-screen py-[30px] pl-[104px]">
         <h2 className="text-white text-4xl font-bold">Dinner Reviews</h2>
         <p className="text-white font-semibold text-2xl mb-4">
           Get every review about your product
